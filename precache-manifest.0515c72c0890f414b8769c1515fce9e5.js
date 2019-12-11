@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1173bcae0da894e42efdffbae6a1287a",
+    "revision": "4e1b91443b64903dac9737461b03e04c",
     "url": "/coin-machine/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/coin-machine/static/css/2.b0bb7f2c.chunk.css"
   },
   {
-    "revision": "98f5729938c708365cd7",
+    "revision": "7bf63866a6d546eed8ad",
     "url": "/coin-machine/static/css/main.56a1f499.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/coin-machine/static/js/2.3af1989d.chunk.js"
   },
   {
-    "revision": "98f5729938c708365cd7",
-    "url": "/coin-machine/static/js/main.e939f538.chunk.js"
+    "revision": "7bf63866a6d546eed8ad",
+    "url": "/coin-machine/static/js/main.38c7a42f.chunk.js"
   },
   {
     "revision": "f7f67984686d22475402",

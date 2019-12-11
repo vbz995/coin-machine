@@ -1,1 +1,1 @@
-export {randomValue, exchange, reset, inputValue} from './actions'
+export {randomValue, exchange, reset, inputValue, inputCoin, updateStateCoins} from './actions'

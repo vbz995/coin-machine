@@ -66,7 +66,7 @@ class Forms extends React.Component{
                     <Button variant="dark" type='button' className="btn mr-2" onClick={this.props.Exchange}>Exchange</Button>
                     <Button variant="dark" type='button' className="btn  ml-2" onClick={this.props.Reset}>Reset</Button>
                 </ButtonGroup>
-               <br/> <label>Choose one option: </label><br/>
+               <br/> <label>Choose option: </label><br/>
                <ListGroup  className="mt-3">
                         {this.props.solutions.map(sol=>
                             <ListGroup.Item active onClick={()=>{

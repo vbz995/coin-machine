@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/coin-machine/static/css/main.56a1f499.chunk.css",
-    "main.js": "/coin-machine/static/js/main.38c7a42f.chunk.js",
-    "main.js.map": "/coin-machine/static/js/main.38c7a42f.chunk.js.map",
+    "main.js": "/coin-machine/static/js/main.8855c58b.chunk.js",
+    "main.js.map": "/coin-machine/static/js/main.8855c58b.chunk.js.map",
     "runtime-main.js": "/coin-machine/static/js/runtime-main.21da84ca.js",
     "runtime-main.js.map": "/coin-machine/static/js/runtime-main.21da84ca.js.map",
     "static/css/2.b0bb7f2c.chunk.css": "/coin-machine/static/css/2.b0bb7f2c.chunk.css",
-    "static/js/2.3af1989d.chunk.js": "/coin-machine/static/js/2.3af1989d.chunk.js",
-    "static/js/2.3af1989d.chunk.js.map": "/coin-machine/static/js/2.3af1989d.chunk.js.map",
+    "static/js/2.f6f9181b.chunk.js": "/coin-machine/static/js/2.f6f9181b.chunk.js",
+    "static/js/2.f6f9181b.chunk.js.map": "/coin-machine/static/js/2.f6f9181b.chunk.js.map",
     "index.html": "/coin-machine/index.html",
-    "precache-manifest.0515c72c0890f414b8769c1515fce9e5.js": "/coin-machine/precache-manifest.0515c72c0890f414b8769c1515fce9e5.js",
+    "precache-manifest.fdba2dff12929b9e5b50efab349273bd.js": "/coin-machine/precache-manifest.fdba2dff12929b9e5b50efab349273bd.js",
     "service-worker.js": "/coin-machine/service-worker.js",
     "static/css/2.b0bb7f2c.chunk.css.map": "/coin-machine/static/css/2.b0bb7f2c.chunk.css.map",
     "static/css/main.56a1f499.chunk.css.map": "/coin-machine/static/css/main.56a1f499.chunk.css.map",
@@ -19,8 +19,8 @@
   "entrypoints": [
     "static/js/runtime-main.21da84ca.js",
     "static/css/2.b0bb7f2c.chunk.css",
-    "static/js/2.3af1989d.chunk.js",
+    "static/js/2.f6f9181b.chunk.js",
     "static/css/main.56a1f499.chunk.css",
-    "static/js/main.38c7a42f.chunk.js"
+    "static/js/main.8855c58b.chunk.js"
   ]
 }

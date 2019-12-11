@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4e1b91443b64903dac9737461b03e04c",
+    "revision": "47a4d4d3d899c457bd875a5015bbeec7",
     "url": "/coin-machine/index.html"
   },
   {
-    "revision": "2ed9a38a7f32b01f6e73",
+    "revision": "eacd56bcf9c012183650",
     "url": "/coin-machine/static/css/2.b0bb7f2c.chunk.css"
   },
   {
-    "revision": "7bf63866a6d546eed8ad",
+    "revision": "023c40a23217312c736b",
     "url": "/coin-machine/static/css/main.56a1f499.chunk.css"
   },
   {
-    "revision": "2ed9a38a7f32b01f6e73",
-    "url": "/coin-machine/static/js/2.3af1989d.chunk.js"
+    "revision": "eacd56bcf9c012183650",
+    "url": "/coin-machine/static/js/2.f6f9181b.chunk.js"
   },
   {
-    "revision": "7bf63866a6d546eed8ad",
-    "url": "/coin-machine/static/js/main.38c7a42f.chunk.js"
+    "revision": "023c40a23217312c736b",
+    "url": "/coin-machine/static/js/main.8855c58b.chunk.js"
   },
   {
     "revision": "f7f67984686d22475402",

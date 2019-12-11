@@ -1,25 +1,26 @@
 {
   "files": {
-    "main.css": "/coin-machine/static/css/main.b4380737.chunk.css",
-    "main.js": "/coin-machine/static/js/main.84fbf8b0.chunk.js",
-    "main.js.map": "/coin-machine/static/js/main.84fbf8b0.chunk.js.map",
+    "main.css": "/coin-machine/static/css/main.56a1f499.chunk.css",
+    "main.js": "/coin-machine/static/js/main.e939f538.chunk.js",
+    "main.js.map": "/coin-machine/static/js/main.e939f538.chunk.js.map",
     "runtime-main.js": "/coin-machine/static/js/runtime-main.21da84ca.js",
     "runtime-main.js.map": "/coin-machine/static/js/runtime-main.21da84ca.js.map",
     "static/css/2.b0bb7f2c.chunk.css": "/coin-machine/static/css/2.b0bb7f2c.chunk.css",
     "static/js/2.3af1989d.chunk.js": "/coin-machine/static/js/2.3af1989d.chunk.js",
     "static/js/2.3af1989d.chunk.js.map": "/coin-machine/static/js/2.3af1989d.chunk.js.map",
     "index.html": "/coin-machine/index.html",
-    "precache-manifest.f3239358c801ba888e24db6afcdb51ad.js": "/coin-machine/precache-manifest.f3239358c801ba888e24db6afcdb51ad.js",
+    "precache-manifest.b836569ceec982807361350a0a405bdf.js": "/coin-machine/precache-manifest.b836569ceec982807361350a0a405bdf.js",
     "service-worker.js": "/coin-machine/service-worker.js",
     "static/css/2.b0bb7f2c.chunk.css.map": "/coin-machine/static/css/2.b0bb7f2c.chunk.css.map",
-    "static/css/main.b4380737.chunk.css.map": "/coin-machine/static/css/main.b4380737.chunk.css.map",
-    "static/media/coins.jpg": "/coin-machine/static/media/coins.430fa632.jpg"
+    "static/css/main.56a1f499.chunk.css.map": "/coin-machine/static/css/main.56a1f499.chunk.css.map",
+    "static/media/coins.jpg": "/coin-machine/static/media/coins.430fa632.jpg",
+    "static/media/App.css": "/coin-machine/static/media/money.2ab4ac08.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.21da84ca.js",
     "static/css/2.b0bb7f2c.chunk.css",
     "static/js/2.3af1989d.chunk.js",
-    "static/css/main.b4380737.chunk.css",
-    "static/js/main.84fbf8b0.chunk.js"
+    "static/css/main.56a1f499.chunk.css",
+    "static/js/main.e939f538.chunk.js"
   ]
 }

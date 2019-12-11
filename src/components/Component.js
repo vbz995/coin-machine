@@ -7,7 +7,7 @@ import {Row, Button, ListGroup, Form, Image,  ButtonGroup} from 'react-bootstrap
 let coin, numberCoins;
 const Cont=styled(Form)`
 height:100%
-background-color: rgb(210, 223, 30);
+background-image: url('images/images.jpg');
 background-position: 100%
 
 `
@@ -18,7 +18,7 @@ height: 50px
 `
 const Title = styled.h1`
 text-shadow: 3px 2px gray
-color:blue
+color: rgb(0, 123, 255);
 font-family: Comic Sans MS, Comic Sans, cursive
 `
 class Forms extends React.Component{
@@ -34,13 +34,13 @@ class Forms extends React.Component{
             </Row>
             <Form className="mt-5 mb-5">
                 <label>Enter coin value: </label>
-                <input id="coin" min="0.1" type="number" step=".1" 
+                <input className="ml-1" id="coin" min="0.1" type="number" step=".1" 
                 onChange={e=>{e.preventDefault()
                     coin=e.target.value
                         }}>
                 </input>
                 <label className="ml-3">Enter number of coin: </label>
-                <input id="numberCoin"  type="number" min="1"  onChange={
+                <input className="ml-1" id="numberCoin"  type="number" min="1"  onChange={
                     e=>{e.preventDefault()
                     numberCoins=e.target.value
             }}></input>
@@ -48,13 +48,13 @@ class Forms extends React.Component{
                 <br/><label>Coins: </label><br/>
                 <ListGroup horizontal>
                         {Object.values(this.props.machine).map(coin=>
-                            <ListGroup.Item key={coin} variant="secondary"> Number of coin {coin}: {this.props.startStateCoins[coin]} </ListGroup.Item>)}
+                            <ListGroup.Item  key={coin} variant="secondary"> Number of coin {coin}: {this.props.startStateCoins[coin]} </ListGroup.Item>)}
                </ListGroup>
                 </Form>
 
             <Form className="mt-5 mb-5">
                 <label >Enter your amount:</label>
-                <input className="mr-5" type="number" min='0'  step='.1' placeholder="Enter your amount" value={this.props.value}  onChange={e=>
+                <input className="ml-1 mr-5" type="number" min='0'  step='.1' placeholder="Enter your amount" value={this.props.value}  onChange={e=>
                 {
                     e.preventDefault()
                      this.props.InputValue(e.target.value)
@@ -67,9 +67,9 @@ class Forms extends React.Component{
                     <Button variant="dark" type='button' className="btn  ml-2" onClick={this.props.Reset}>Reset</Button>
                 </ButtonGroup>
                <br/> <label>Choose one option: </label><br/>
-               <ListGroup key='xl' className="mt-3">
+               <ListGroup  className="mt-3">
                         {this.props.solutions.map(sol=>
-                            <ListGroup.Item  onClick={()=>{
+                            <ListGroup.Item active onClick={()=>{
                                alert("You choose:"+sol.map(([key, value])=>" Coins "+ key + ": " + value))
                                sol.map(([key, value])=>this.props.UpdateStateCoins(key, value))
                                

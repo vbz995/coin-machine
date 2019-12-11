@@ -20,3 +20,8 @@
 .App-link {
   color: #09d3ac;
 }
+
+body{
+  background-image: url('images/money.jpg');
+  background-size: cover;
+}

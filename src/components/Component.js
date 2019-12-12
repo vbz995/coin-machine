@@ -6,6 +6,12 @@ import styled from 'styled-components'
 import {Row, Button, ListGroup, Form, Image,  ButtonGroup, ListGroupItem} from 'react-bootstrap'
 
 let coin, numberCoins;
+const CoinLabel=styled.label`
+color: rgb(0, 123, 255);
+font-weight: bold;
+font-size: 30px;
+text-decoration: underline;
+`
 const Cont=styled(Form)`
 height:100%
 background-image: url('images/images.jpg');
@@ -56,10 +62,10 @@ class Forms extends React.Component{
                 <Button className="ml-3" type="button" onClick={()=>{this.props.InputCoin(coin,numberCoins)}}>ADD COIN</Button>
                 <br/>
                 <br/>
-                {isEmpty(this.props.machine)?<></>:<Label>Coins: </Label>}
                 <ListGroup horizontal >
+                    {isEmpty(this.props.machine)?<></>:<CoinLabel>Coins:</CoinLabel>}
                         {Object.values(this.props.machine).map(coin=>
-                            <ListGroupItem key={coin} variant="secondary"> Number of coin {coin}: {this.props.startStateCoins[coin]} </ListGroupItem>)}
+                            <ListGroupItem className="ml-1" key={coin} variant="secondary"> Number of coin {coin}: {this.props.startStateCoins[coin]} </ListGroupItem>)}
                </ListGroup>
                 </Form>
 
@@ -77,11 +83,11 @@ class Forms extends React.Component{
                     <Button variant="dark" type='button' className="btn mr-2" onClick={this.props.Exchange}>Exchange</Button>
                     <Button variant="dark" type='button' className="btn  ml-2" onClick={this.props.Reset}>Reset</Button>
                 </ButtonGroup>
-               <br/> {isEmpty(this.props.solutions)?<></>:<Label>Choose option: </Label>}<br/>
+               <br/> {isEmpty(this.props.solutions)?<></>:<CoinLabel>Choose option: </CoinLabel>}<br/>
                <ListGroup className="mt-3">
                         {this.props.solutions.map(sol=>
                             <ListGroup.Item as="button" className="mb-1" active onClick={()=>{
-                                alert("You choose:"+sol.map(([key, value])=>" Coins "+ key + ": " + value))
+                                alert("You choose:"+sol.map(([key, value])=>" Coins "+ key + ": " + value))                                
                                sol.map(([key, value])=>this.props.UpdateStateCoins(key, value))
                                
                                

@@ -38,7 +38,6 @@ const calculate =(state, amount, counter, machine, coins,stateCoins, solutions)=
          solutions.push(Object.entries(coins))
      }
   }  
-  return newAmount
 }
 const exchange=(state, action)=>{
     let coins={...state.numberOfCoins}  
@@ -81,11 +80,12 @@ const getInputCoin=(state,action)=>{
     let counterCoins={...state.numberOfCoins}
     let isExist=false
     const stMachine={...state.machine}
-    if(action.coinValue === undefined || action.numberCoin ===undefined)
+    if(action.coinValue === undefined || action.numberCoin ===undefined || isNaN(action.coinValue)===true || isNaN(action.numberCoin)===true ||action.coinValue==="")
     {
-        alert("Please enter coin value and number coin")
+        alert("Please enter valid coin value and number of coin")
     }
     else{
+        console.log("ENTER COIN VALUE: ",  action.coinValue)
         Object.keys(coins).forEach(coin=>{
             if(coin===action.coinValue){
                 coins[coin]= parseFloat(coins[coin])+ parseInt(action.numberCoin)
